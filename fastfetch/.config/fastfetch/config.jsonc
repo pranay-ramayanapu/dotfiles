@@ -1,0 +1,66 @@
+{
+  "logo": {
+    "type": "small",
+    "padding": { "top": 1 }
+  },
+
+  "display": {
+    "separator": " "
+  },
+
+  "modules": [
+    { "type": "custom", "key": "╭───────────╮" },
+
+    { "type": "title", "key": "│ {#blue} user    {#keys}│", "format": "{user-name}" },
+    { "type": "title", "key": "│ {#blue}󰇅 hname   {#keys}│", "format": "{host-name}" },
+
+    {
+      "type": "command",
+      "key": "│ {#blue}󱦟 os age  {#keys}│",
+      "text": "echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days"
+    },
+
+    { "type": "uptime", "key": "│ {#blue}󰅐 uptime  {#keys}│" },
+    { "type": "os",     "key": "│ {#blue}{icon} distro  {#keys}│" },
+    { "type": "kernel", "key": "│ {#blue} kernel  {#keys}│" },
+    { "type": "wm",     "key": "│ {#blue} wm      {#keys}│" },
+    { "type": "de",     "key": "│ {#blue}󰇄 de      {#keys}│" },
+    { "type": "terminal","key": "│ {#blue} term    {#keys}│" },
+    { "type": "shell",  "key": "│ {#blue} shell   {#keys}│" },
+
+    {
+      "type": "cpu",
+      "key": "│ {#blue}󰍛 cpu     {#keys}│",
+      "showPeCoreCount": true
+    },
+
+    {
+      "type": "disk",
+      "key": "│ {#blue}󰉉 disk    {#keys}│",
+      "folders": ["/"]
+    },
+
+    {
+      "type": "memory",
+      "key": "│ {#blue} mem     {#keys}│"
+    },
+    {
+      "type": "swap",
+      "key": "│ {#blue}󰍛 swap    {#keys}│"
+    },
+
+    {
+      "type": "localip",
+      "key": "│ {#blue}󰖩 ip      {#keys}│"
+    },
+    { "type": "custom", "key": "├───────────┤" },
+
+    {
+      "type": "colors",
+      "key": "│ {#blue} colors  {#keys}│",
+      "symbol": "circle"
+    },
+
+    { "type": "custom", "key": "╰───────────╯" }
+  ]
+}

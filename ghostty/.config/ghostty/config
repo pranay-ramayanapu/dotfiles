@@ -1,0 +1,7 @@
+theme = "Matugen"
+font-family = JetBrainsMonoNL Nerd Font
+font-size = 14
+maximize = true
+background-opacity = 0.93
+background-blur = 30
+# window-decoration = false
