@@ -10,17 +10,17 @@ post_hook = 'pkill -SIGUSR2 ghostty'
 # output_path = '~/.config/nvim/lua/config/matugen.vim'
 # post_hook = 'pkill -SIGUSR1 nvim'
 
-[templates.gnome-shell]
-input_path = '~/.config/matugen/templates/gnome-shell.css'
-output_path = '~/.themes/Material-Gnome/gnome-shell/gnome-shell.css'
-post_hook = "dconf write /org/gnome/shell/extensions/user-theme/name \"'default'\" && dconf write /org/gnome/shell/extensions/user-theme/name \"'Material-Gnome'\""
-
-[templates.gtk3]
-input_path = '~/.config/matugen/templates/gtk'
-output_path = '~/.config/gtk-3.0/colors.css'
-post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-{{mode}}'
-
-[templates.gtk4]
-input_path = '~/.config/matugen/templates/gtk'
-output_path = '~/.config/gtk-4.0/colors.css'
-post_hook = '~/.config/matugen/post-hook-scripts/gtk-themes-reload.sh'
+# [templates.gnome-shell]
+# input_path = '~/.config/matugen/templates/gnome-shell.css'
+# output_path = '~/.themes/Material-Gnome/gnome-shell/gnome-shell.css'
+# post_hook = "dconf write /org/gnome/shell/extensions/user-theme/name \"'default'\" && dconf write /org/gnome/shell/extensions/user-theme/name \"'Material-Gnome'\""
+#
+# [templates.gtk3]
+# input_path = '~/.config/matugen/templates/gtk'
+# output_path = '~/.config/gtk-3.0/colors.css'
+# post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-{{mode}}'
+#
+# [templates.gtk4]
+# input_path = '~/.config/matugen/templates/gtk'
+# output_path = '~/.config/gtk-4.0/colors.css'
+# post_hook = '~/.config/matugen/post-hook-scripts/gtk-themes-reload.sh'
