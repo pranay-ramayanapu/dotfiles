@@ -1,0 +1,11 @@
+[general]
+import = ["colors.toml"]
+
+[font]
+normal = { family = "JetBrainsMonoNL Nerd Font" }
+size = 14
+
+[window]
+startup_mode = "Maximized"
+opacity = 0.93
+blur = true

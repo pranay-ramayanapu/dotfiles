@@ -5,6 +5,10 @@ input_path = '~/.config/matugen/templates/ghostty'
 output_path = '~/.config/ghostty/themes/Matugen'
 post_hook = 'pkill -SIGUSR2 ghostty'
 
+[templates.alacritty]
+input_path = '~/.config/matugen/templates/alacritty.toml'
+output_path = '~/.config/alacritty/colors.toml'
+# ...
 # [templates.nvim]
 # input_path = '~/.config/matugen/templates/neovim'
 # output_path = '~/.config/nvim/lua/config/matugen.vim'

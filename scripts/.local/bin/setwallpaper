@@ -13,7 +13,7 @@ done
 # Pick a wallpaper
 WALLPAPER=$(zenity --file-selection \
   --title="Select Wallpaper" \
-  --filename="$HOME/Pictures/wallpaper/")
+  --filename="$HOME/Pictures/wallpapers/")
 
 # User pressed Cancel
 [ -z "$WALLPAPER" ] && exit 0
