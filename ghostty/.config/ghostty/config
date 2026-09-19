@@ -1,6 +1,7 @@
 font-family = JetBrainsMonoNL Nerd Font
 font-size = 14
+maximize = true
 background-opacity = 0.93
 background-blur = 30
 confirm-close-surface = false
-theme = TokyoNight Moon
+theme = Catppuccin Mocha
