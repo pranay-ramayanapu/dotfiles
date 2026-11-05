@@ -101,9 +101,9 @@ fi
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="nvim ~/.zshrc"
-alias ohmyzsh="nvim ~/.oh-my-zsh"
+# alias zshconfig="nvim ~/.zshrc"
+# alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias cls="clear"
-alias ls="eza --icons"
+alias ls="eza --icons=auto"
 eval "$(zoxide init --cmd cd zsh)"
 . "/home/pranay/.deno/env"

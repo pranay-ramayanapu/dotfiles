@@ -3,7 +3,7 @@
 ---------------------
 
 -- Set programs that you use
-local terminal = "foot"
+local terminal = "ghostty"
 local fileManager = "nautilus"
 local browser = "firefox"
 local menu = "noctalia msg panel-toggle launcher"
