@@ -103,6 +103,7 @@ fi
 # Example aliases
 # alias zshconfig="nvim ~/.zshrc"
 # alias ohmyzsh="nvim ~/.oh-my-zsh"
+fastfetch
 alias cls="clear"
 alias ls="eza --icons=auto"
 eval "$(zoxide init --cmd cd zsh)"
