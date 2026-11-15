@@ -105,6 +105,6 @@ fi
 # alias ohmyzsh="nvim ~/.oh-my-zsh"
 fastfetch
 alias cls="clear"
-alias ls="eza --icons=auto"
-eval "$(zoxide init --cmd cd zsh)"
-. "/home/pranay/.deno/env"
+# alias ls="eza --icons=auto"
+# eval "$(zoxide init --cmd cd zsh)"
+# . "/home/pranay/.deno/env"
